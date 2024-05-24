@@ -2,184 +2,102 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/styles-dist.css">
+  <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@100..900&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/reset.css">
+  <link rel="stylesheet" href="/css/styles-dist.css">
+  <script defer src="/scripts/particles.js"></script>
+  <script defer src="/scripts/scripts.js"></script>
+  <title>Keiber Rodriguez</title>
 </head>
 
-<body>
-  <header class="header min-height">
-    <h1 id="headtitle" class="header__title">
-      <span class="header__ttop">Keiber Rodriguez</span>
-      <span class="header__subtitle">Front end Developer</span>
-    </h1>
-    <img class="header__img" title="Keiber Rodriguez" src="assets/images/keiber-daniel-rodriguez-quiroz.webp"
-      alt="profile image de Keiber Daniel rodriguez">
-
-    <nav class="mainnav">
-      <ul class="mainnav__ul">
-        <li class="mainnav__li"><a class="mainnav__a" href="#headworks">Proyectos</a></li>
-        <!--Para los proyectos creados-->
-        <li class="mainnav__li"><a class="mainnav__a" href="#headcontact">Contact</a></li>
-        <!--Apartado solamente dedicado a contactarme aunque durante todo el documento colocaré mis redes-->
-        <li class="mainnav__li"><a class="mainnav__a" href="">CV Resume</a></li>
-        <!--Hago un CV como pag web, aquí pongo mis tecnologías -->
-        <li class="mainnav__li"><a class="mainnav__a" href="#headabout">About me</a></li>
-        <!--Hablo sobre mi y mis motivaciones-->
-      </ul>
-    </nav>
-  </header>
-  <main>
-    <section class="section min-height">
-      <!-- PROJECTS -->
-      <h2 id="headworks" class="section__title">Proyectos</h2>
-      <p class="text">Siempre me ha gustado colocar un poco más en mis creaciones algo que identifique que yo pasé por
-        allí</p>
-      <article class="preview ">
-        <h3 class="preview__title">Comming soon</h3>
-        <p class="preview__text">Lorem, ipsum dolor.</p>
-        <img class="preview__img" src="#" alt="Comming">
-
-        <a class="preview__a" href="#">Go to Git hub</a>
-
-        <footer>
-          <p class="preview__text preview__text--footer">
-            Ultima modificacion: <date> 5/6/19</date>
-          </p>
-        </footer>
-      </article>
-      <article class="preview ">
-        <h3 class="preview__title">Comming soon</h3>
-        <p class="preview__text">Lorem, ipsum dolor.</p>
-        <img class="preview__img" src="#" alt="Comming">
-
-        <a class="preview__a" href="#">Go to Git hub</a>
-
-        <footer>
-          <p class="preview__text preview__text--footer">
-            Ultima modificacion: <date> 5/6/19</date>
-          </p>
-        </footer>
-      </article>
-      <article class="preview ">
-        <h3 class="preview__title">Comming soon</h3>
-        <p class="preview__text">Lorem, ipsum dolor.</p>
-        <img class="preview__img" src="#" alt="Comming">
-
-        <a class="button preview__a" href="#">Go to Git hub</a>
-
-        <footer>
-          <p class="preview__text preview__text--footer">
-            Ultima modificacion: <date> 5/6/19</date>
-          </p>
-        </footer>
-      </article>
-
-    </section>
-    <section class="section section--contact min-height">
-      <!-- CONTACT  -->
-      <h2 id="headcontact" class="section__title">Enviame un mensaje prro</h2>
-      <!-- Contruimos un formulario -->
-      <form class="contact_form">
-        <div class="contact_form__div">
-          <label class="contact_form__label" for="user-name">Nombre</label>
-          <div class="prueba">
-            <input class="contact_form__input" id="user-name" name="username">
-          </div>
-        </div>
-        <div class="contact_form__div">
-          <label class="contact_form__label" for="user-email">Correo</label>
-          <div class="prueba">
-            <input class="contact_form__input" id="user-email" required type="email" name="useremail">
-          </div>
-        </div>
-        <div class="contact_form__div">
-          <label class="contact_form__label" for="user-reason">Asunto</label>
-          <div class="prueba">
-            <input class="contact_form__input" id="user-reason" name="reason">
-          </div>
-        </div>
-        <div class="contact_form__div">
-          <label class="contact_form__label" for="user-text">Mensaje</label>
-          <div class="prueba">
-            <textarea class="contact_form__input contact_form__input--textarea" name="usertext" id="user-text"
-              cols="17,5" rows="7"></textarea>
-          </div>
-        </div>
-        <button class="button button--form">Send</button>
-      </form>
-
-    </section>
-    <section class="section--about min-height">
-      <!-- ABOUT ME -->
-      <h2 class="section__title" id="headabout">About me</h2>
-      <article>
-        <h3>Who is Keiber</h3>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur distinctio unde eligendi laudantium
-          fugit numquam tenetur libero dicta repudiandae quaerat commodi, neque porro! Aut, eveniet natus voluptatem
-          quidem officia voluptates!</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id facere porro mollitia aliquid earum. Voluptatibus
-          odio vero non at cupiditate dolorum molestiae, reprehenderit, laudantium modi enim maiores ipsam, impedit
-          obcaecati?</p>
-      </article>
-      <article>
-        <h3>Formation</h3>
-
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil aspernatur atque, cum rerum, modi aut odit
-          accusamus reprehenderit quo deserunt neque sequi dicta natus provident facere sed soluta est ea!</p>
-        <ol>
-          <li>Lorem, ipsum dolor.</li>
-          <li>Lorem, ipsum.</li>
-        </ol>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio quo maxime repellat, fugiat iusto id
-          explicabo temporibus cupiditate quidem dolor non eius. Saepe voluptate obcaecati dolorum quae sit? Porro,
-          quasi!</p>
-        <h4>Certifies</h4>
-        <ul>
-          <li>Lorem ipsum dolor sit.</li>
-          <li>Lorem ipsum dolor sit amet.</li>
-          <li>Lorem ipsum dolor sit amet.</li>
-        </ul>
-      </article>
-      <article>
-        <h3>Motivaciones</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores voluptate a iure hic laboriosam, repellat
-          veritatis, voluptas eveniet labore laborum in perspiciatis corporis facere autem, deserunt itaque unde optio
-          nostrum!</p>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil, perferendis. Iste, accusantium porro.
-          Aliquam exercitationem, ut dolor odit ea pariatur molestiae amet, voluptatem impedit repudiandae doloribus
-          omnis esse, in explicabo.</p>
-        <footer>
-          <p>
-            <cite>Ramón de Campoamor</cite>
-            <q cite="https://es.wikipedia.org/wiki/Ley_Campoamor">
-              En este mundo traidor, nada es verdad ni mentira, todo es según el color del cristal con que se mira</q>
-          </p>
-        </footer>
-      </article>
-    </section>
-  </main>
-  <aside>
-    <!-- Esta lista de redes sociales será una plantilla o template en Js. y nos la vamos a copiar 2 veces mas 1 en el footer y otra mas en contact, agregamos interactividad para que al momento de mostrarse alguna e las otras dos plantillas o estar en el móvil esta se deje de mostrar. -->
-    <ul> <!--Social-->
-      <li><a href=""></a>Linkedin</li>
-      <li><a href=""></a>Discord</li>
-      <li><a href=""></a>Telegram</li>
-      <li><a href=""></a>Git Hub</li>
-      <li><a href=""></a>Facebook</li>
+<body id="home">
+  <img id="togglemenu" class="hamburguer-icon" src="/assets/svg/hamburguer.svg">
+  <nav class="main-nav">
+    <ul id="menu" class="navigation title">
+      <li class="navigation__li"><a class="navigation__a" href="#home">Home</a></li>
+      <li class="navigation__li"><a class="navigation__a" href="#about">About</a></li>
+      <li class="navigation__li"><a class="navigation__a" href="#projects">Projects</a></li>
+      <li class="navigation__li"><a class="navigation__a" href="#contact">Contact</a></li>
     </ul>
-  </aside>
-  <footer class="min-height">
+  </nav>
+  <div id="particles-js"></div>
+  <div class="blur">
+    <div class="container">
+      <header class="main-header ">
+        <h1 class="main-header__h1 title">
+          <span class="main-header__title">Keiber</span>
+          <span class="main-header__title main-header__title--sub">Laboratory</span>
+        </h1>
 
-  </footer>
+        <p class="main-header__text">
+          Front end developer, músico, amante de la ciencia y apasionado por el crecimiento.
+        </p>
 
+        <img class="user-img" src="/assets/images/1715712844973.jpg" alt="">
 
+        <ul class="contact">
+          <!-- Redes -->
+        </ul>
+      </header>
+      <main>
+        <section id="about" class="section">
+          <header class="section__header">
+            <h2 class="section__title title">
+              ABOUT
+            </h2>
+          </header>
+          <p class="text">
+            Mi nombre es Keiber Daniel Rodriguez Quiroz. Actualmente me encuentro estudiando Ingienería informática en
+            la Universidad Centro Occidental de Venezuela, trabajo en mis projectos personales y creo ideas día a día,
+            me gusta la música, leer,
+          </p>
+          <p class="text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus repudiandae sed rem pariatur.
+          </p>
+          <p class="text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus repudiandae sed rem pariatur.
+          </p>
+          <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus beatae illum, non
+            tenetur numquam laudantium! Molestias eaque qui nisi alias maxime corrupti itaque, deserunt hic sed dicta
+            iure nihil facere.</p>
+        </section>
+        <section id="projects" class="section projects">
+          <header class="section__header">
+            <h2 class="section__title title">
+              PROJECTS
+            </h2>
+            <p class="text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus repudiandae sed rem pariatur.
+            </p>
+          </header>
+          <article class="project-card">
+            <img class="project-card__img" src="/assets/images/shoes-2425122_1280.jpg" alt="imagen de">
+            <div class="project-card__recolector">
 
+              <header>
+                <h3 class="project-card__title">Shoes MC'Fly</h3>
+              </header>
+              <p>Trabajo de Backend y Frontend realizado para la empresa SHOES MC'Fly</p>
+              <a href="link">link</a>
+          </article>
+
+    </div>
+
+    </section>
+    <section id="contact" class="section">
+      <header class="section__header">
+        <h2 class="section__title title">
+          CONTACT
+        </h2>
+      </header>
+    </section>
+    </main>
+  </div>
+  </div>
 </body>
 
 </html>
