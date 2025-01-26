@@ -4,7 +4,7 @@ html {
 body {
   font-family: "Encode Sans SC", sans-serif;
   color: white;
-  background: linear-gradient(#3e3e59, #6a775f) fixed;
+  background: linear-gradient(#2359af, #373b44);
   font-weight: 200;
   line-height: 1.5em;
 }
@@ -33,6 +33,12 @@ body {
 }
 .section {
   padding-top: 1em;
+}
+.section__list {
+  list-style: circle;
+}
+.section__list li {
+  margin-bottom: 1em;
 }
 .main-header {
   display: flex;
@@ -153,8 +159,6 @@ body {
 }
 @media (min-width: 768px) {
   #particles-js {
-   
-
     width: 100%;
   }
   .section__header {
