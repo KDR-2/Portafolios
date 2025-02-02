@@ -1,5 +1,5 @@
 :root {
-  --main-bg-color: #16161685;
+  --main-bg-color: #1616165b;
   --litle-bordes: 0.5em;
   --text-color: #d1d7e4;
 }
@@ -10,7 +10,7 @@ html {
 body {
   font-family: "Encode Sans SC", sans-serif;
   color: white;
-  background: linear-gradient(45deg, #c98115, #144ed3, #0a2769);
+  background: linear-gradient(45deg, #0a2769, #144ed3, #7a4e0c);
   font-weight: 200;
   line-height: 1.5em;
 }
@@ -32,9 +32,7 @@ body {
   min-height: 100vh;
 }
 .section__title {
-  padding-top: 0.5em;
-  margin-bottom: 1em;
-
+  padding: 1em;
   font-size: 2rem;
   letter-spacing: 0.2em;
   text-transform: uppercase;
@@ -45,9 +43,6 @@ body {
 }
 .section__div {
   padding: 1em;
-}
-.section {
-  padding-top: 1em;
 }
 .section__list {
   list-style: decimal;
@@ -113,7 +108,6 @@ body {
 .navigation__a {
   padding: 1em;
 }
-
 .hamburguer-icon {
   width: 4em;
   position: fixed;
